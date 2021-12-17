@@ -1,0 +1,41 @@
+.parent{
+display: flex;
+flex-direction: row;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+background-color: gray;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: tomato solid 2px;
+}
+.parent>div{
+    width: auto;
+    border: black 2px double;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    background-color: turquoise;
+}
+H2{
+    color: blue;
+}
+H3{
+    color: brown;
+}
+ button{
+     color: violet;
+ }
+ @media only screen and  (min-width: 380;) and (max-width: 480;){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    } 
+    .parent>div{
+        width: 80%;
+    }
+ }
+ 
